@@ -1,0 +1,80 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: darkgray;
+}
+.container
+{
+    max-width: 600px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 15px 10px rgb(82, 82, 82)
+}
+h1
+{
+    text-align: center;
+    color: black;
+}
+p
+{
+    text-align: left;  
+    font-size: 16px; 
+}
+.formgroup
+{
+    margin-bottom: 20px;
+}
+label
+{
+    display: block;
+    margin: 5px;
+    color: black;
+    font-weight: bold;
+}
+input[type="date"]
+{
+    width: 30%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+button
+{
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: #4c7b25;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover
+{
+    background-color: #530e94e3;
+}
+.result-container
+{
+    margin-top: 20px;
+    padding: 20px;
+}
+.result
+{
+    margin-top: 10px;
+}
+.result h2
+{
+    font-size: 25px;
+    color: black;
+}
+.result p
+{
+    margin-top: 10px;
+    font-size: 25px;
+}
